@@ -2,7 +2,7 @@ version: '2'
 services:
   prometheus:
     user: root
-    image: my-prometheus
+    image: prometheusnet/docker_exporter
     user: root
     ports:
      - 9090:9090
